@@ -1,0 +1,51 @@
+
+* {
+padding: 0px;
+margin: 0px
+}
+
+img {
+  width: 730px;
+  height: 500px;
+  margin: 20px;
+}
+
+.images {
+  padding: 20px;
+  margin: 50px;
+  align-items: center;
+  display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-around;
+}
+
+h1 {
+  font-size: 130px;
+ font-family: 'Philosopher', sans-serif;
+}
+
+#globe-gif {
+  width: 100px;
+  height: auto;
+  padding: 4px 8px;
+
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0px 0px 0px;
+}
+
+
+@media screen and (max-width: 600px) {
+body {
+  .images {
+    display: flex;
+    flex-direction: column;
+
+}
+}
+
+}
